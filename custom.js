@@ -6,7 +6,7 @@
      */
     async unselectOption(locator, text)
     {
-        const select = await this.helpers['Puppeteer']._locate(locator)[0];
+        const select = (await this.helpers['Puppeteer']._locate(locator))[0];
 
         await select.evaluate(
             (select, text) => {
