@@ -1,5 +1,4 @@
     /**
-     * unselects an option of a selected by given visible text
      * @param locator
      * @param text
      * @returns {Promise<void>}
